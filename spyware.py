@@ -22,10 +22,10 @@ def upload_to_ftp(file_path, ftp_host, ftp_user, ftp_pass, ftp_dir):
         print(f"Error uploading file: {e}")
 
 if __name__ == "__main__":
-    ftp_host = "127.0.0.1"
-    ftp_user = "Nirmal"
-    ftp_port = 2121  
-    ftp_pass = "Nirmalpethani@04"
+    ftp_host = "your_host_IP"
+    ftp_user = "your_ftp_user_name "
+    ftp_port = port you want to litsen   
+    ftp_pass = "your_ftp_password"
     ftp_dir = "/"
 
     while True:
